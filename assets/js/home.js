@@ -30,26 +30,51 @@ function show() {
 
   // slider mentor
   var swiper = new Swiper('.swiper-container', {
-    effect: 'coverflow',
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    loop:true,
-    autoplay: {
-      delay: 500,
-      disableOnInteraction: false,
-    },
     pagination: {
       el: '.swiper-pagination',
+      type: 'fraction',
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      '1900': {
+        slidesPerView: 4,
+        spaceBetween: 25,
+      },
+      '1400': {
+        slidesPerView: 4,
+        spaceBetween: 25,
+      },
+      '991': {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      '768': {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+  
+      '700': {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      '600': {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      '500': {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
   });
+  
   // show hide password
   function myFunction() {
     var x = document.getElementById("myInput");
