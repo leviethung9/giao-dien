@@ -187,23 +187,19 @@ button.icon-search:focus {
 .carousel-item {
     position: relative;
 }
-
 .carousel-item img {
     height: 700px;
 }
-
 .slide-text {
     position: absolute;
     top: 25%;
     left: 15%;
 }
-
 h2.slide-text-heading {
     font-size: 80px;
     font-weight: 700;
     color: rgb(255, 255, 255);
 }
-
 h3.slide-text-content {
     max-width: 396px;
     white-space: normal;
@@ -216,12 +212,10 @@ h3.slide-text-content {
     font-weight: 400;
     padding-left: 15px;
 }
-
 .slide-text-btn {
     padding-top: 30px;
     padding-left: 15px;
 }
-
 .btn-slide {
     color: #ffffff;
     border-color: #ffffff;
@@ -234,124 +228,99 @@ h3.slide-text-content {
     cursor: pointer;
     border: 2px solid;
 }
-
 .btn-slide:first-child {
     background: transparent;
 }
-
 .btn-slide:first-child:hover {
     background: transparent;
     color: #ffffff;
     border-color: #ffffff;
 }
-
 .btn-slide:last-child {
     background-color: #ff1949;
     border: 2px solid #ff1949;
     margin-left: 20px;
 }
-
 .btn-slide:last-child:hover {
     background-color: #ff1949;
     border: 2px solid #ff1949;
     color: #fff;
 }
-
 /* slide end */
-
 /* ctv course */
-
 nav.btn-tabs-course {
     display: flex;
 }
-
 nav.btn-tabs-course li {
     padding-left: 55px;
     color: #252525;
     font-size: 22px;
     font-weight: 500;
 }
-
 nav.btn-tabs-course li:first-child {
     padding-left: 0px;
 }
-
 nav.btn-tabs-course li a {
     color: #252525;
     font-size: 22px;
     font-weight: 500;
 }
-
 nav.btn-tabs-course li:hover {
     color: #ff1949;
     cursor: pointer;
 }
-
 nav.btn-tabs-course li a:hover {
     color: #ff1949;
 }
-
 #show-content1 {
     display: block;
 }
-
 #show-content2 {
     display: none;
 }
-
 .course {
     width: 100%;
     margin-top: 30px;
 }
-
 .img-course {
     overflow: hidden;
 }
-
 .img-course a img {
     height: 25vh;
     object-fit: cover;
     transition: transform .5s ease;
 }
-
 .img-course a img:hover {
     transform: scale(1.1);
 }
-
 .tabs-course-content {
     display: block;
 }
-
 .course-content {
     padding: 10px 0px;
 }
-
 h3.course-name {
     color: #252525;
     font-weight: 700;
     font-size: 20px;
     padding: 5px 0px;
 }
-
 h4.course-type {
     color: #444;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
-
 p.course-detail {
     line-height: 24px;
     color: #444;
     font-size: 15px;
 }
-
 hr.hr-course {}
 
 /* ctv course end */
 
 /* ctv mentor */
-
 h4.title-mentor {
     color: #252525;
     font-weight: 600;
@@ -439,6 +408,9 @@ a.read-more-btn {
     font-size: 14px;
     float: right;
     text-transform: uppercase;
+}
+.link-to-rules:hover{
+    color: #ff1949;
 }
 
 /* <!-- about-us end --> */
