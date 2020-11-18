@@ -937,3 +937,15 @@
         display: flex;
     }
 }
+
+@media only screen and (max-width: 350px){
+    .img-reg-to-mentor img {
+        width: 60%;
+        padding: 20px;
+    }
+    .text-reg h3 {
+        line-height: 15px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+}
