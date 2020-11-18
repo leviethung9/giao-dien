@@ -78,6 +78,9 @@
         background-color: rgb(255, 255, 255);
         display: flex;
     }
+    .swiper-slide{
+        height: 45vh;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -109,6 +112,9 @@
         text-align: inherit;
         font-weight: 400;
         padding-left: 15px;
+    }
+    .swiper-slide{
+        height: 50vh;
     }
 }
 
@@ -242,7 +248,15 @@
         background-position: center;
         background-size: cover;
         width: 300px;
-        height: 55vh;
+        height: 45vh;
+    }
+    .img-course a img {
+        height: 15vh;
+        object-fit: cover;
+        transition: transform .5s ease;
+    }
+    .simple-card-image img {
+        height: 12vh;
     }
     /* open nav*/
     #show_nav {
@@ -393,6 +407,15 @@
     footer {
         text-align: center;
     }
+    .img-course a img{
+        height: 25vh;
+    }
+    .swiper-slide{
+        height: 60vh;
+    }
+    .simple-card-image img {
+        height: 25vh;
+    }
 }
 
 @media only screen and (max-width: 876px) {
@@ -480,6 +503,20 @@
     }
 }
 
+@media only screen and (max-width: 734px){
+    .simple-card-image img {
+        height: 35vh;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    .swiper-slide{
+        height: 72vh;
+    }
+    
+}
+
 @media only screen and (max-width: 640px) {
     .reponsive-logo a img {
         width: 120px;
@@ -507,7 +544,7 @@
         background-position: center;
         background-size: cover;
         width: 300px;
-        height: 450px;
+        height: 650px;
     }
     .swiper-slide img {
         width: 100%;
@@ -663,6 +700,12 @@
     .btn-reg-box {
         padding: 10px 0px;
     }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 500px;
+    }
 
 }
 
@@ -672,6 +715,12 @@
     }
     nav.btn-tabs-course li a {
         font-size: 18px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 420px;
     }
 }
 
