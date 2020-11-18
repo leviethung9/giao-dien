@@ -40,16 +40,24 @@ function show() {
     },
     breakpoints: {
       '1900': {
-        slidesPerView: 4,
-        spaceBetween: 25,
+        slidesPerView: 5,
+        spaceBetween: 15,
       },
       '1400': {
         slidesPerView: 4,
-        spaceBetween: 25,
+        spaceBetween: 15,
+      },
+      '1200': {
+        slidesPerView: 4,
+        spaceBetween: 15,
+      },
+      '1024': {
+        slidesPerView: 3,
+        spaceBetween: 15,
       },
       '991': {
         slidesPerView: 3,
-        spaceBetween: 25,
+        spaceBetween: 15,
       },
       '768': {
         slidesPerView: 2,
