@@ -877,4 +877,14 @@
         padding: 2px 4px;
         text-align: center;
     }
+    .simple-card-image img {
+        width: 100%;
+        height: 25vh;
+    }
+    .box-reg-grid {
+        width: 85%;
+        height: 90%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+    }
 }
