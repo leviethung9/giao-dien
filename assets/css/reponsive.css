@@ -24,6 +24,11 @@
         max-width: 90%;
         margin: 0 auto;
     }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1316px) {
@@ -122,6 +127,11 @@
         justify-content: center;
         line-height: 90px;
         padding-right: 60px;
+    }
+    .banner h1 {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 60px;
     }
 }
 
@@ -386,6 +396,17 @@
 }
 
 @media only screen and (max-width: 876px) {
+    .banner h1 {
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 50px;
+    }
+    .banner {
+        background-image: url(../img/course/About-us-title-img.jpg);
+        width: 100%;
+        height: 30vh;
+        background-color: #ffc107;
+    }
     .box-img {
         height: auto;
         overflow: hidden;
@@ -443,6 +464,15 @@
         line-height: 22px;
         height: 48px;
     }
+    .slide-text-btn {
+    padding-top: 65px;
+    padding-left: 15px;
+}
+.img-course a img {
+    height: 35vh;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
     .footer-coppyright p {
         text-align: center;
         color: #e1e1e1;
@@ -536,6 +566,17 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .banner h1 {
+        font-weight: 450;
+        color: #ffffff;
+        font-size: 45px;
+    }
+    .banner {
+        background-image: url(../img/course/About-us-title-img.jpg);
+        width: 100%;
+        height: 25vh;
+        background-color: #ffc107;
+    }
     .slide-text-btn {
         display: flex;
         flex-direction: column;
@@ -752,5 +793,88 @@
         height: 95%;
         background-color: rgb(255, 255, 255);
         display: flex;
+    }
+    .img-about-us {
+        padding: 15px 35px 0px 35px;
+    }
+    h3.course-name {
+        color: #252525;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 2px 0px;
+    }
+    h4.course-type {
+        color: #444;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    p.course-detail {
+        line-height: 20px;
+        color: #444;
+        font-size: 14px;
+    }
+    .entry-total_review {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        padding: 0px 8px;
+    }
+    a.title-mentor-link {
+        
+        font-weight: 500;
+        font-size: 18px;
+        
+    }
+    h4.title-mentor {
+      
+        font-weight: 500;
+        font-size: 18px;
+        
+    }
+    .img-reg-to-mentor img {
+        width: 70%;
+        padding: 20px;
+    }
+    .text-reg h3 {
+        line-height: 20px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .btn-warning {
+        color: #212529;
+        background-color: #ffc107;
+        border-color: #ffc107;
+        font-size: 14px;
+    }
+    .banner {
+        background-image: url(../img/course/About-us-title-img.jpg);
+        width: 100%;
+        height: 25vh;
+        background-color: #ffc107;
+    }
+    .banner h1 {
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    h2.slide-text-heading {
+        font-size: 22px;
+    }
+    h3.slide-text-content {
+        font-size: 14px;
+        padding: 5px 0px;
+        max-width: 250px;
+    }
+    .btn-slide {
+        width: 100px;
+        color: #ffffff;
+        border-color: #ffffff;
+        font-size: 12px;
+        padding: 2px 4px;
+        text-align: center;
     }
 }
